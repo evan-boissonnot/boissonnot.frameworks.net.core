@@ -9,6 +9,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Boissonnot.Framework.Core.B
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Boissonnot.Framework.Core.Data", "Boissonnot.Framework.Core.Data\Boissonnot.Framework.Core.Data.csproj", "{CEBBEB51-C300-4353-97F2-6826C78C4D85}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Boissonnot.Framework.Core.Web", "Boissonnot.Framework.Core.Web\Boissonnot.Framework.Core.Web.csproj", "{3A83C68D-CE73-4FAF-813D-CDAA651D9F56}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{CEBBEB51-C300-4353-97F2-6826C78C4D85}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{CEBBEB51-C300-4353-97F2-6826C78C4D85}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{CEBBEB51-C300-4353-97F2-6826C78C4D85}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3A83C68D-CE73-4FAF-813D-CDAA651D9F56}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3A83C68D-CE73-4FAF-813D-CDAA651D9F56}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3A83C68D-CE73-4FAF-813D-CDAA651D9F56}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3A83C68D-CE73-4FAF-813D-CDAA651D9F56}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
