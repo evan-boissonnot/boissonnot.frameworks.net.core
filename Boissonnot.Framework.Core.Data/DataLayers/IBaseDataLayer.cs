@@ -33,5 +33,12 @@ namespace Boissonnot.Framework.Core.Data.DataLayers
         /// <param name="id"></param>
         /// <returns></returns>
         Task<TItem> SelectOneAsync(int id);
+
+        /// <summary>
+        /// Mise à jour de l'item en cours
+        /// </summary>
+        /// <param name="item">Item à mettre à jour, avec l'id renseigné</param>
+        /// <returns></returns>
+        Task UpdateOneAsync(TItem item); 
     }
 }
