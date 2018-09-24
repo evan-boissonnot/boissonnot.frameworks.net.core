@@ -31,7 +31,7 @@ namespace Boissonnot.Framework.Core.Web
         /// <param name="id"></param>
         /// <returns></returns>
         [HttpGet("{id}")]
-        public abstract Task<ActionResult<TPresentation>> Get(int id);
+        public abstract Task<TPresentation> Get(int id);
         #endregion
 
         #region Properties
